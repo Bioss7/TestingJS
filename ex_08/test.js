@@ -15,7 +15,7 @@ describe("pow", function () {
     
     });
 
-    // Тесты падают
+    // Тесты проходят успешно
     it("для отрицательных n возвращает NaN", function () {
         assert.isNaN(pow(2, -1));
     });
